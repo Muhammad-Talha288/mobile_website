@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* extra small screen start here */
+@media only screen and (max-width: 579px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 25px;
+    }
+    /* brands styling start here */    
+
+}
+/* extra small screen end here */
+
+/* small screen start here */
+@media only screen and (min-width: 580px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 30px;
+    }
+    /* brands styling start here */    
+
+}
+/* small screen end here */
+
+/* medium screen start here */
+@media only screen and (min-width: 768px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 30px;
+    }
+    /* brands styling start here */
+
+}
+/* medium screen end here */
+
+/* large screen start here */
+@media only screen and (min-width: 992px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 40px;
+    }
+    .brnd-cont>.brnd-rw>.brnd-dv>a
+    {
+        transition-property: all;
+        transition-duration: 0.6;
+    }
+    .brnd-cont>.brnd-rw>.brnd-dv>a:hover
+    {
+        transform: scale(1.1);
+    }
+    /* brands styling start here */
+
+}
+/* large screen end here */

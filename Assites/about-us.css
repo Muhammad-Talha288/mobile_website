@@ -1,0 +1,188 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* extra small screen start here */
+@media only screen and (max-width: 579px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 25px;
+    }
+    /* brands styling start here */
+
+    .head-dv>h1
+    {
+        color: white;
+        letter-spacing: 1px;
+    }
+    .head-dv>p
+    {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .rd-dv
+    {
+        padding: 40px 40px;
+    }
+
+}
+/* extra small screen end here */
+
+/* small screen start here */
+@media only screen and (min-width: 580px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 30px;
+    }
+    /* brands styling start here */
+
+    .head-dv>h1
+    {
+        color: white;
+        width: 400px;
+        letter-spacing: 1px;
+    }
+    .head-dv>p
+    {
+        color: white;
+        font-size: 18px;
+        width: 500px;
+        letter-spacing: 1px;
+    }
+
+    .rd-dv
+    {
+        padding: 40px 40px;
+    }
+
+}
+/* small screen end here */
+
+/* medium screen start here */
+@media only screen and (min-width: 768px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 30px;
+    }
+    /* brands styling start here */
+
+    .head-dv>h1
+    {
+        color: white;
+        width: 400px;
+        letter-spacing: 1px;
+    }
+    .head-dv>p
+    {
+        color: white;
+        font-size: 18px;
+        width: 500px;
+        letter-spacing: 1px;
+    }
+
+    .rd-dv
+    {
+        padding: 60px 60px;
+    }
+
+}
+/* medium screen end here */
+
+/* large screen start here */
+@media only screen and (min-width: 992px){
+
+    /* brands styling start here */
+    .brnd-cont>.brnd-rw>.brnd-dv>a>img
+    {
+        height: 40px;
+    }
+    .brnd-cont>.brnd-rw>.brnd-dv>a
+    {
+        transition-property: all;
+        transition-duration: 0.6;
+    }
+    .brnd-cont>.brnd-rw>.brnd-dv>a:hover
+    {
+        transform: scale(1.1);
+    }
+    /* brands styling start here */
+
+    .head-dv>h1
+    {
+        color: white;
+        width: 400px;
+        letter-spacing: 1px;
+    }
+    .head-dv>p
+    {
+        color: white;
+        font-size: 18px;
+        width: 500px;
+        letter-spacing: 1px;
+    }
+
+    .rd-dv
+    {
+        padding: 60px 60px;
+    }
+
+}
+/* large screen end here */
+
+.head1
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.438)), url("..//Images/aboutus/aboutus.jpg");
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head2
+{
+    background-image: linear-gradient(#0080d031,#0080d031), url("..//Images/aboutus/bg-deliver-capitals.png");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-dv
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.head2-dv
+{
+    position: relative;
+    top: 8%;
+}
+.head2-dv>p
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.head2-dv2
+{
+    position: relative;
+    top: 20%;
+}
+.rd-dv
+{
+    background-color: #0080d0c0;
+    border-radius: 50%;
+}
